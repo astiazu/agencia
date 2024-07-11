@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "target": "es5", // Especifica la versión de ECMAScript objetivo.
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ], // Especifica las bibliotecas que se incluirán en la compilación.
+        "allowJs": true, // Permite que se compile JavaScript junto con TypeScript.
+        "skipLibCheck": true, // Omite la verificación de tipos en los archivos de declaración.
+        "esModuleInterop": true, // Habilita la intercompatibilidad con módulos ES.
+        "allowSyntheticDefaultImports": true, // Permite importaciones de módulos con una exportación por defecto.
+        "strict": true, // Habilita todas las comprobaciones estrictas de tipo.
+        "forceConsistentCasingInFileNames": true, // Enforce consistent casing in file names.
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext", // Especifica el sistema de módulos que se utilizará.
+        "moduleResolution": "node", // Especifica la estrategia de resolución de módulos.
+        "resolveJsonModule": true, // Permite la importación de archivos JSON.
+        "isolatedModules": true, // Tratar cada archivo como un módulo separado.
+        "noEmit": true, // No emite archivos después de la compilación.
+        "jsx": "react-jsx" // Especifica el modo JSX.
+    },
+    "include": [
+        "src"
+    ] // Especifica los archivos o directorios a incluir en la compilación.
+}
